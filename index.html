@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andoid Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator-display-screen">
+            <div class="curr-operand"></div>
+            <div class="result"></div>
+        </div>
+        <div class="calculator-features">
+            <div class="left-calculator-features">
+                <i class='bx bx-time'></i>
+                <i class='bx bx-math' data-rotate-icon></i>
+            </div>
+            <div data-delete class="right-calculator-features">
+                <i class='bx bx-comment-x green-x'></i>
+            </div>
+        </div>
+        <div class="calculator-buttons">
+            <div class="disapearing-container">
+                <div class="left-calculator-buttons">
+                    <button data-change-arrow><i class='bx bx-transfer-alt'></i></button>
+                    <button>Rad</button>
+                    <button data-root>&#8730;</button>
+                    <button data-sin>sin</button>
+                    <button data-cos>cos</button>
+                    <button data-tan>tan</button>
+                    <button data-ln>ln</button>
+                    <button data-log>log</button>
+                    <button data-1x>1/x</button>
+                    <button data-ex>e<sup>x</sup></button>
+                    <button data-x2>x<sup>2</sup></button>
+                    <button data-xy>x<sup>y</sup></button>
+                    <button data-abs-x>|x|</button>
+                    <button data-pi>&#960;</button>
+                    <button data-e>e</button>
+                </div>
+            </div>
+            <div class="right-calculator-buttons">
+                <button data-all-clear id="C">C</button>
+                <button data-parenthesis class="green">()</button>
+                <button data-operation class="green">%</button>
+                <button data-operation class="green">/</button>
+                <button data-number>7</button>
+                <button data-number>8</button>
+                <button data-number>9</button>
+                <button data-operation class="green">*</button>
+                <button data-number>4</button>
+                <button data-number>5</button>
+                <button data-number>6</button>
+                <button data-operation class="green">-</button>
+                <button data-number>1</button>
+                <button data-number>2</button>
+                <button data-number>3</button>
+                <button data-operation class="green">+</button>
+                <button data-negative>+/-</button>
+                <button data-number>0</button>
+                <button data-number>.</button>
+                <button data-equall id="equall">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
